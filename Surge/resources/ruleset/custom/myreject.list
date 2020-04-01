@@ -43,5 +43,7 @@ DOMAIN,miniapp.bilibili.com
 //屏蔽人人视频更新提示
 URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
 
+// 爱阅书香
 
+DOMAIN-SUFFIX,umeng.com:443
 
