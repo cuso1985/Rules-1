@@ -44,6 +44,7 @@ DOMAIN,miniapp.bilibili.com
 URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
 
 // 爱阅书香
-
-DOMAIN-SUFFIX,umeng.com:443
-
+AND, ((DOMAIN-SUFFIX,images.pinduoduo.com), (USER-AGENT,%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99*))
+AND, ((DOMAIN-SUFFIX,qq.com), (USER-AGENT,%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99*))
+AND, ((DOMAIN-SUFFIX,umengcloud.com), (USER-AGENT,%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99*))
+AND, ((DOMAIN-SUFFIX,umeng.com), (USER-AGENT,%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99*))
